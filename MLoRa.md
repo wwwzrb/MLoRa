@@ -1,13 +1,31 @@
 Intuition:
 
-    Uplink: Concurrent Transmission  
-    Increase Channel Utilization
-    Different Nodes Use the Same Channel and Spreading Factor
+    1. Application
+        Uplink: Concurrent Transmission  
+        Increase Channel Utilization
+        Different Nodes Use the Same Channel and Spreading Factor
 
-    Downlink: MISO
-    Utilizing LoRa Encoding to Recover Message
-    Add WIFI MIMO Coding Mechanism?
+        Downlink: MISO
+        Utilizing LoRa Encoding to Recover Message
+        Add WIFI MIMO Coding Mechanism?
 
-    Detection Energy of different LoRa Nodes and Antennas
+        Detection Energy of different LoRa Nodes and Antennas
+    
+    2. Different Scenarios.
+       (1) pwr offset != 0 
+           a. time offset = 0  pwr difference    
+           b. time offset !=0  pwr + time difference
+       (2) pwr offset =0
+           a. time offset = 0  encoding
+           b. time offset !=0  time difference
     
 </br>
+
+TODO:
+
+    1. Two packet stream decoding.
+       How to control LoRa nodes to generate two-packet collision?(sending interval)
+    2. Collecting data under difference parameters.
+       TX pwr: -4~14dBm with step 1 dBm
+       TXRX dist: 3~15m ?
+    3. Reimplementing LoRa (de/en)coder in python.
