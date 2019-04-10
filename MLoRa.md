@@ -29,3 +29,4 @@ TODO:
        TX pwr: -4~14dBm with step 1 dBm
        TXRX dist: 3~15m ?
     3. Reimplementing LoRa (de/en)coder in python.
+       The encoder has been reproduced by 10, April, 2019.
