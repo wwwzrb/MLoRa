@@ -30,3 +30,4 @@ TODO:
        TXRX dist: 3~15m ?
     3. Reimplementing LoRa (de/en)coder in python.
        The encoder has been reproduced by 10, April, 2019.
+       The decoder has been reproduced by 12, April, 2019.
