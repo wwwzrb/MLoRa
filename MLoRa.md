@@ -32,6 +32,6 @@ TODO:
        The encoder has been reproduced by 10, April, 2019.
        The decoder has been reproduced by 12, April, 2019.
     ４．Collecting packet with different payloads.
-    5. Synchronization of collided packets.
-    6. Testing synchronized packets.
-       Integrating collected packets into matrix to test collision decoding int n (200) runs. 
+    ５．Synchronization of collided packets.
+    ６．Testing synchronized packets.
+    　　Integrating collected packets into matrix to test collision decoding int n (200) runs. 
