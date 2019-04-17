@@ -39,5 +39,7 @@ TODO:
 </br>
 
 Comparsion under different Sampling Rate-Bandwidth:
+
     1. Origin RPP0 LoRa receiver is not stable under oversampling rate (OS) 2 (1M-500K), stable under OS 4,8.(1M -250/125K.)
+    
     
