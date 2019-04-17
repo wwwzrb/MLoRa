@@ -44,7 +44,7 @@ Methods Comparsion under different Sampling Rate-Bandwidth (SR-BW) pairs or Over
     2. WZ LoRaBee receiver and FFT receiver can work well under OS 2,4,8.
     3. Both RPPO and WZ cannot pass sync detection under OS 1 (500K-500K).
        RPPO LoRa: Decoded chirp symbol is not accurate; Preamble detection succeeds. (Improveing decoding!)
-       <p><span style="color:red;">test</span></p>
+       <p><span style="color:red">test</span></p>
        WZ: Preabmle detection fails. (Find reason!)
 
     
