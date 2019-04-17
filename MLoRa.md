@@ -38,7 +38,7 @@ TODO:
 
 </br>
 
-Comparsion under different Sampling Rate-Bandwidth (SR-BW) or oversampling rate (OR):
+Methods Comparsion under different Sampling Rate-Bandwidth (SR-BW) pairs or Oversampling Rates (OR):
 
     1. Origin RPP0 LoRa receiver is not stable under OS 2 (1M-500K), stable under OS 4,8.(1M -250/125K).
     2. WZ LoRaBee receiver and FFT receiver can work well under OS 2,4,8.
