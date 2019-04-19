@@ -42,8 +42,8 @@ Methods Comparsion under different Sampling Rate-Bandwidth (SR-BW) pairs or Over
 
    1. Origin RPP0 LoRa receiver is not stable under OS 2 (1M-500K), stable under OS 4,8.(1M -250/125K).
    2. WZ LoRaBee receiver and FFT receiver can work well under OS 2,4,8.
-   3. Both RPPO and WZ cannot pass sync detection under OS 1 (500K-500K).<br/>
-      RPPO LoRa: Decoded chirp symbol is not accurate; Preamble detection succeeds. (**Improve accuracy!**)<br/>
+   3. Both RPP0 and WZ cannot pass sync detection under OS 1 (500K-500K).<br/>
+      RPP0 LoRa: Decoded chirp symbol is not accurate; Preamble detection succeeds. (**Improve accuracy!**)<br/>
       WZ: Preabmle detection fails. (**Find reason!**)<br/>
 
 
