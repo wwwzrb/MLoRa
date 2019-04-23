@@ -38,6 +38,30 @@ TODO:
 
 </br>
 
+Outline:
+
+    1. Detect collided packets
+       (1) Get the maximum (2*n-1) FFT bin.
+       (2) Detect consecutive max FFT bin index of the same power level.
+           a. Only one preamble w/o packet-level time offset
+           b. Two preambles w/ packet-level time offset
+              i.  One preamble is detected first, continues detecting in the decoding process. 
+              ii. Two or preambles are detected, continues detecting in the decoding process.
+    2. w/o packet-level time offset
+       (1) Payload will generate two peaks
+       (2) Mapping peaks to packet according to pwr offset
+       (3) Abandon error packet according to FEC and CRC (too small power offset)
+    3. w/ packet-level time offset
+       (1) w/  chirp-level time offset
+           a. Align by A's or B's chirp
+           b. Each collided chirp generates three peaks
+           c. Mapping peaks into packets according to time offset and power offset
+       (2) w/o chirp-level time offset
+           a. Two preambles will be detected
+           b. Mapping peaks to packet according to pwr offset
+           c. Abandon error packet according to FEC and CRC (too small power offset)
+
+
 Methods Comparsion under different Sampling Rate-Bandwidth (SR-BW) pairs or Oversampling Rates (OR):
 
    1. Origin RPP0 LoRa receiver is not stable under OS 2 (1M-500K), stable under OS 4,8.(1M -250/125K).
