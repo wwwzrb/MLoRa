@@ -41,7 +41,9 @@ TODO:
 Outline:
 
     1. Detect collided packets
-       (1) Get the maximum (2*n-1) FFT bin.
+       (1) Get the maximum (2*n-1) FFT bin. 
+           (For n-packet collision, there exist at most (2*n-1) peaks!)
+           (For preamble, there are at most n peaks because preambles are always continuous!)
        (2) Detect consecutive max FFT bin index of the same power level.
            a. Only one preamble w/o packet-level time offset
            b. Two preambles w/ packet-level time offset
