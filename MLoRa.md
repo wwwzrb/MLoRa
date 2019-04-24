@@ -63,6 +63,25 @@ Outline:
            b. Mapping peaks to packet according to pwr offset
            c. Abandon error packet according to FEC and CRC (too small power offset)
 
+Exp:
+
+1. Conducting EXP under 4 different parameters setting. 
+
+   Params(offset) | 0 | 1 | 2 | 3
+   ---- | --- | --- | --- | ---
+   time |  0  |  0  |  1  |  1
+   pwr  |  0  |  1  |  0  |  1
+
+2. Intuitively control time offsets by adjusting sending interval of two devices.
+
+3. Intuitively control power offsets by setting TX power of two devices.
+
+4. Analyse time offset distribution of collected data.
+
+5. Anslyse power offset distribution of collected data.
+   (Estimate RX power by collision-free parts of two packets.)
+   
+
 
 Methods Comparsion under different Sampling Rate-Bandwidth (SR-BW) pairs or Oversampling Rates (OR):
 
