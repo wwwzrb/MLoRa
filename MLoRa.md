@@ -4,8 +4,10 @@ Intuition:
         Uplink: Concurrent Transmission  
         Increase Channel Utilization
         Different Nodes Use the Same Channel and Spreading Factor
+        Resolve the pesudo-orthogonal of different spreading factor
 
         Downlink: MISO
+        Construct packet in gateway with specific time offset to enhance throughput and channel utilization.
         Utilizing LoRa Encoding to Recover Message
         Add WIFI MIMO Coding Mechanism?
 
