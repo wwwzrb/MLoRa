@@ -25,18 +25,43 @@ Intuition:
 
 TODO:
 
-    1. Two packet stream decoding.
-       How to control LoRa nodes to generate two-packet collision?(sending interval)
-    2. Collecting data under difference parameters.
-       TX pwr: -4~14dBm with step 1 dBm
-       TXRX dist: 3~15m ?
-    3. Reimplementing LoRa (de/en)coder in python.
-       The encoder has been reproduced by 10, April, 2019.
-       The decoder has been reproduced by 12, April, 2019.
-    ４．Collecting packet with different payloads.
-    ５．Synchronization of collided packets.
-    ６．Testing synchronized packets.
-    　　Integrating collected packets into matrix to test collision decoding int n (200) runs. 
+1. Two packet stream decoding. :x:
+
+   How to control LoRa nodes to generate two-packet collision?(sending interval)
+
+2. Collecting data under difference parameters. :x:
+
+   TX pwr: -4~14dBm with step 1 dBm
+   
+   TXRX dist: 3~15m ?
+
+3. Reimplementing LoRa (de/en)coder in python. :heavy_check_mark:
+
+   The encoder has been reproduced by 10, April, 2019.
+   
+   The decoder has been reproduced by 12, April, 2019.
+
+4. Collecting packet with different payloads.
+
+   a. Single packet :heavy_check_mark:
+   
+      0x12345678 
+      0x87654321
+      0x1234567812345678
+      0x8765432187654321
+      
+   b. Collided packet :x:
+
+
+5. Synchronization of collided packets.
+
+   a. Preamble Detection. :heavy_check_mark:
+   
+   b. Fine Sync. :x:
+   
+6. Testing synchronized packets.
+
+   Integrating collected packets into matrix to test collision decoding int n (200) runs. :heavy_check_mark:
 
 </br>
 
