@@ -63,6 +63,12 @@ TODO:
 
    Integrating collected packets into matrix to test collision decoding int n (200) runs. :heavy_check_mark:
 
+7. Dynamically determine the maximum FFT bin detection parameters.
+   
+   Threshold.
+   
+   Scope.
+
 </br>
 
 Outline:
