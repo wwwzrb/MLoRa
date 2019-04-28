@@ -118,9 +118,9 @@ Exp:
 Impl:
 
     1. Preamble detection.
-       Energy mapping?
-       Brute search mapping?
-       Energy Threshold?
+       Energy mapping? Can it work under nearly equivalent energy peaks.
+       Brute search mapping? How to resolve the payload of the first packet mistaken as the second preamble. 
+       Energy Threshold? How to set peak threshold automatically.
 
 
 Methods Comparsion under different Sampling Rate-Bandwidth (SR-BW) pairs or Oversampling Rates (OR):
