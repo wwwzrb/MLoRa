@@ -113,7 +113,14 @@ Exp:
 
 5. Anslyse power offset distribution of collected data.
    (Estimate RX power by collision-free parts of two packets.)
-   
+
+
+Impl:
+
+    1. Preamble detection.
+       Energy mapping?
+       Brute search mapping?
+       Energy Threshold?
 
 
 Methods Comparsion under different Sampling Rate-Bandwidth (SR-BW) pairs or Oversampling Rates (OR):
@@ -123,6 +130,7 @@ Methods Comparsion under different Sampling Rate-Bandwidth (SR-BW) pairs or Over
    3. Both RPP0 and WZ cannot pass sync detection under OS 1 (500K-500K).<br/>
       RPP0 LoRa: Decoded chirp symbol is not accurate; Preamble correlation succeeds. (**Improve accuracy!**)<br/>
       WZ: Preabmle detection fails. (**Find reason!**)<br/>
+      
 
 
     
