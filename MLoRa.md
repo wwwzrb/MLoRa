@@ -141,6 +141,16 @@ Impl:
 
 3. PLD decoding.
    
+   c. State_A = PLD & State_B = PLD
+   
+      B is delayed chirp-level offset (c * oversample) samples in one chirp compared with A.
+      
+      Index_A = 0, Index_B = 64
+      
+      Considering align with A, B's index will minus c.
+      
+      Considering align with B, A's index will add c.
+   
 
 
 Methods Comparsion under different Sampling Rate-Bandwidth (SR-BW) pairs or Oversampling Rates (OR):
