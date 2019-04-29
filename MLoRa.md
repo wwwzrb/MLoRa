@@ -117,7 +117,7 @@ Exp:
 
 Impl:
 
-1. Preamble detection.
+1. Preamble detection. :heavy_check_mark:
 
    a. Energy mapping? :x:
    
@@ -132,6 +132,15 @@ Impl:
       By detecting consecutive preambles the number of which is larger than 4, e.g, 5,6,7. :heavy_check_mark:
       
    c. Energy Threshold? How to set peak threshold automatically?
+   
+2. SFD detection. :heavy_check_mark:
+
+   a. Keeping the original incoming stream.
+   
+   b. Detect A's or B's downchirp by aligning with A's or B's preamble index.
+
+3. PLD decoding.
+   
 
 
 Methods Comparsion under different Sampling Rate-Bandwidth (SR-BW) pairs or Oversampling Rates (OR):
