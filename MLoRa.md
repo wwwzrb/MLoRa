@@ -117,13 +117,21 @@ Exp:
 
 Impl:
 
-    1. Preamble detection.
-       a. Energy mapping? 
-          Can it work under nearly equivalent energy peaks?
-          25+984/496/912/776
-       b. Brute search mapping? 
-          How to resolve the payload of the first packet mistaken as the second preamble? 
-       c. Energy Threshold? How to set peak threshold automatically?
+1. Preamble detection.
+
+   a. Energy mapping? :x:
+   
+      Can it work under nearly equivalent energy peaks?
+      
+      25+984/496/912/776
+      
+   b. Brute search mapping? 
+   
+      How to resolve the payload of the first packet mistaken as the second preamble? 
+      
+      By detecting consecutive preambles the number of which is larger than 4, e.g, 5,6,7. :heavy_check_mark:
+      
+   c. Energy Threshold? How to set peak threshold automatically?
 
 
 Methods Comparsion under different Sampling Rate-Bandwidth (SR-BW) pairs or Oversampling Rates (OR):
