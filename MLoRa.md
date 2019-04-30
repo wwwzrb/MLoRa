@@ -155,6 +155,8 @@ Problem:
 
 1. Preamble failed under chirp offset 14 and sample offset 72. 
 
+2. How to achieve stable performance under small power offset or small time offset. 
+
 
 Methods Comparsion under different Sampling Rate-Bandwidth (SR-BW) pairs or Oversampling Rates (OR):
 
