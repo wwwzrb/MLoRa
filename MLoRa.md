@@ -150,7 +150,10 @@ Impl:
       Considering align with A, B's index will minus c.
       
       Considering align with B, A's index will add c.
-   
+
+Problem:
+
+1. Preamble failed under chirp offset 14 and sample offset 72. 
 
 
 Methods Comparsion under different Sampling Rate-Bandwidth (SR-BW) pairs or Oversampling Rates (OR):
