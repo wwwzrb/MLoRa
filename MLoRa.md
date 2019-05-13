@@ -25,9 +25,9 @@ Intuition:
 
 TODO:
 
-1. Two packet stream decoding. :x:
+1. Two packet stream decoding. :heavy_check_mark:
 
-   How to control LoRa nodes to generate two-packet collision?(sending interval)
+   How to control LoRa nodes to generate two-packet or three-packet collision?(sending interval) :x:
 
 2. Collecting data under difference parameters. :x:
 
@@ -46,9 +46,9 @@ TODO:
    a. Single packet :heavy_check_mark:
    
       0x12345678 
-      0x87654321
+      0x32436587
       0x1234567812345678
-      0x8765432187654321
+      0x3243658732436587
       
    b. Collided packet :x:
 
@@ -57,7 +57,7 @@ TODO:
 
    a. Preamble Detection. :heavy_check_mark:
    
-   b. Fine Sync. :x:
+   b. Fine Sync. :heavy_check_mark:
    
 6. Testing synchronized packets.
 
