@@ -46,9 +46,9 @@ TODO:
    a. Single packet :heavy_check_mark:
    
       0x12345678 
-      0x32436587
+      0x21436587
       0x1234567812345678
-      0x3243658732436587
+      0x2143658721436587
       
    b. Collided packet :x:
 
