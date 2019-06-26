@@ -157,6 +157,8 @@ Problem:
 
 2. How to achieve stable performance under small power offset or small time offset. 
 
+3. Cannot extend to long packets, either signal packets or collided packets.
+   Possible reason:1) frequency offset 2) synchronization error
 
 Methods Comparsion under different Sampling Rate-Bandwidth (SR-BW) pairs or Oversampling Rates (OR):
 
