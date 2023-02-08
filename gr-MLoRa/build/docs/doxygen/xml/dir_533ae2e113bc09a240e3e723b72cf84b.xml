@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_533ae2e113bc09a240e3e723b72cf84b" kind="dir">
+    <compoundname>MLoRa</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/wangzhe/sjtu/USRP/MLoRa/online/gr-MLoRa/include/MLoRa/"/>
+  </compounddef>
+</doxygen>

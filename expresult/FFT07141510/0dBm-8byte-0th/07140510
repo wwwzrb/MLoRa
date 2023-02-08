@@ -1,0 +1,24 @@
+LoRa 1 LoRa Antenna 0
+USRP 1 LoRa Antenna 1 0.5 cycle
+Dist: Indoor Table
+PWR : 0dBm
+LEN : 8bytes
+Bit Error Rate:  0.00045454545454545455
+Packet Reception Ratio:  1.0
+Frame Reception Ratio:  0.98
+Average SNR dB:  37.98
+Average Signal Power:  0.0007129602
+Average Noise Power: 1.1347847e-07
+SF: 7
+BW: 125K
+SR: 1M
+SEND  : 100 times with 0.1s delay
+TIME  : 18.14s
+PACKET: 08 80 90 12 34 56 78 12 34 56 78
+
+
+
+
+
+
+

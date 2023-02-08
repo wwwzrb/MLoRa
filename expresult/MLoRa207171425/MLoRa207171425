@@ -1,0 +1,18 @@
+868.1 MHz, SF 7, CR 4/8, BW 125 kHz, prlen 8, crc off, implicit off
+Device 0: Node 1
+Pre length: 8
+Bandwidth : 125
+Sync words: 00
+Power     : 0
+Device 1: Node 0
+Pre length: 8
+Bandwidth : 125
+Sync words: 00
+Power     : -2
+Payload 0 : 1234567812345678
+Payload 1 : 2143658721436587
+Sections_cnts: [15, 32, 10, 28, 38, 20, 27, 24, 16, 12]
+Intra_delays: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Intra_intervals: [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+--- 2.500915288925171 seconds ---
+USRP 1 LoRa Antenna 0.5 cycle
